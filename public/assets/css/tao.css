@@ -1,0 +1,63 @@
+#especialidadSelect{
+    background-color: #525866;
+}
+
+select#especialidadSelect, option {
+  color: #525866;
+}
+
+.input__field.input__field--kohana.input-selected::placeholder{
+  color:#444;
+}
+
+/* * css para wassap boton flotante */
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:white;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+  }
+
+  .whatsapp-icon {
+    margin-top:13px;
+  }
+
+  .img-wsp-icon {
+    padding: 6px;
+  }
+
+  .img-wsp-icon-button{
+    width: 20px;
+    margin-right: 2px;
+  }
+
+  .text-center{
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+
+  @media screen and (max-width: 600px) {
+  .img-banner{
+    width: 600px;
+  }
+
+}
+
+.detail.mod-new {
+  margin-left: 26px !important;
+  /* width: 300px !important; */
+}
+
+/* * fix correccion al texto de las secciones ya que no se ve el acento */
+
+h4.fix-f4 {
+  margin-top: 10px;
+}
