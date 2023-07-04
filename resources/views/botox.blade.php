@@ -24,10 +24,10 @@
                 <div class="col-md-12">
 
                     <div class="paging">
-                        <h2>Botox</h2>
+                        <h2>Toxina botulínica</h2>
                         <ul>
                             <li><a href="{{ url("/") }}">inicio</a></li>
-                            <li><a>Botox</a></li>
+                            <li><a>Toxina botulínica</a></li>
                         </ul>
                     </div>
 

@@ -220,7 +220,7 @@
             data-y="218" data-speed="1000" data-start="1800" data-easing="Power3.easeInOut"
             data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
             data-endspeed="300"
-            style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">Botox
+            style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">Toxina botulínica
         </div>
 
         <div class="tp-caption small-title tp-resizeme rs-parallaxlevel-0 fade start" data-x="670"
@@ -271,7 +271,7 @@
                     <div class="service-sec">
                         <img style="width: 97px" src="{{ asset('assets/images/icon/plasma.png') }}" alt="">
                         <div class="detail">
-                            <h5>Botox</h5>
+                            <h5>Toxina Botulínica</h5>
                             <p>Neurotoxina que paraliza parcialmente algunos músculos previniendo las líneas de expresión.</p>
                         </div>
                     </div>
@@ -460,9 +460,9 @@
                                     <img src="{{ asset("assets/images/testimonial-img2.jpg") }}" alt="">
                                     <div class="height10"></div>
                                     <span class="name">María González</span>
-                                    <span class="patient">Botox</span>
+                                    <span class="patient">Toxina botulínica</span>
                                     <div class="height30"></div>
-                                    <p>¡Gracias al tratamiento de Botox en el centro de estética, me siento como una nueva persona! Después de luchar con arrugas faciales durante algún tiempo, finalmente decidí probar el tratamiento de Botox. En el centro de estética, el personal fue amable y profesional, y el tratamiento fue rápido y sin dolor. Ahora, algunas semanas después, estoy muy contenta con los resultados y recomiendo el tratamiento a cualquiera que busque reducir la apariencia de las arrugas faciales.</p>
+                                    <p>¡Gracias al tratamiento de Toxina botulínica en el centro de estética, me siento como una nueva persona! Después de luchar con arrugas faciales durante algún tiempo, finalmente decidí probar el tratamiento de Toxina botulínica. En el centro de estética, el personal fue amable y profesional, y el tratamiento fue rápido y sin dolor. Ahora, algunas semanas después, estoy muy contenta con los resultados y recomiendo el tratamiento a cualquiera que busque reducir la apariencia de las arrugas faciales.</p>
 
                                 </div>
                                 <div class="testi-sec">

@@ -175,7 +175,7 @@
                 <nav id="menu">
                     <ul>
                         <li class="select"><a href="{{ url("./") }}">Inicio</a></li>
-         
+
                         @foreach (servicios() AS $item)
                         <li> <a href="{{ url($item->url) }}">{{  ucfirst(strtolower($item->nombre)) }}</a> </i></li>
                         @endforeach
@@ -371,6 +371,5 @@
 
   gtag('config', 'AW-11217750342');
 </script>
-
 </body>
 </html>

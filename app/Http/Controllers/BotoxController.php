@@ -8,8 +8,8 @@ use App\Models\Especialidad;
 
 
 class BotoxController extends Controller{
-    
-    public function botox(){
+
+    public function toxina_butulinica(){
         $phone = $this->get_phone()[0]["resultado"];
         $direccion = $this->get_adrees()[0]["resultado"];
         $email_contact = $this->get_email_contact()[0]["resultado"];
@@ -23,8 +23,8 @@ class BotoxController extends Controller{
 
         $especialidades = $this->especialidad(2);
 
-        return view("botox", compact("phone", "email_contact", "facebook", 
-                                    "twtter", "direccion", "selected", 
+        return view("botox", compact("phone", "email_contact", "facebook",
+                                    "twtter", "direccion", "selected",
                                     "instagram", "url_general", "especialidades"));
     }
 
@@ -44,8 +44,8 @@ class BotoxController extends Controller{
 
         $especialidades = $this->especialidad(10);
 
-        return view("plasma", compact("phone", "email_contact", "facebook", 
-                                    "twtter", "direccion", "selected", 
+        return view("plasma", compact("phone", "email_contact", "facebook",
+                                    "twtter", "direccion", "selected",
                                     "instagram", "url_general", "especialidades"));
     }
 
@@ -65,8 +65,8 @@ class BotoxController extends Controller{
 
         $especialidades = $this->especialidad(11);
 
-        return view("rejuvenicimiento", compact("phone", "email_contact", "facebook", 
-                                    "twtter", "direccion", "selected", 
+        return view("rejuvenicimiento", compact("phone", "email_contact", "facebook",
+                                    "twtter", "direccion", "selected",
                                     "instagram", "url_general", "especialidades"));
     }
 
@@ -86,8 +86,8 @@ class BotoxController extends Controller{
 
         $especialidades = $this->especialidad(12);
 
-        return view("acido-hialuronicos", compact("phone", "email_contact", "facebook", 
-                                    "twtter", "direccion", "selected", 
+        return view("acido-hialuronicos", compact("phone", "email_contact", "facebook",
+                                    "twtter", "direccion", "selected",
                                     "instagram", "url_general", "especialidades"));
     }
 
@@ -107,8 +107,8 @@ class BotoxController extends Controller{
 
         $especialidades = $this->especialidad(13);
 
-        return view("bioestimulacion", compact("phone", "email_contact", "facebook", 
-                                    "twtter", "direccion", "selected", 
+        return view("bioestimulacion", compact("phone", "email_contact", "facebook",
+                                    "twtter", "direccion", "selected",
                                     "instagram", "url_general", "especialidades"));
     }
 
@@ -128,8 +128,8 @@ class BotoxController extends Controller{
 
         $especialidades = $this->especialidad(14);
 
-        return view("tratamientos-corporales", compact("phone", "email_contact", "facebook", 
-                                    "twtter", "direccion", "selected", 
+        return view("tratamientos-corporales", compact("phone", "email_contact", "facebook",
+                                    "twtter", "direccion", "selected",
                                     "instagram", "url_general", "especialidades"));
     }
 
@@ -148,8 +148,8 @@ class BotoxController extends Controller{
 
         $especialidades = $this->especialidad(15);
 
-        return view("hiperhidrosis", compact("phone", "email_contact", "facebook", 
-                                    "twtter", "direccion", "selected", 
+        return view("hiperhidrosis", compact("phone", "email_contact", "facebook",
+                                    "twtter", "direccion", "selected",
                                     "instagram", "url_general", "especialidades"));
     }
 
@@ -168,13 +168,13 @@ class BotoxController extends Controller{
 
         $especialidades = $this->especialidad(16);
 
-        return view("limpieza_facial", compact("phone", "email_contact", "facebook", 
-                                    "twtter", "direccion", "selected", 
+        return view("limpieza_facial", compact("phone", "email_contact", "facebook",
+                                    "twtter", "direccion", "selected",
                                     "instagram", "url_general", "especialidades"));
     }
 
 
-    
+
     public function especialidad($id){
         return Especialidad::where("nav", $id)->get();
     }
