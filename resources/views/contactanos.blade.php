@@ -2,6 +2,8 @@
 
 @section('content-csr')
     <meta name="csrf-token" content="{{ csrf_token() }}">
+	<meta property="title" content="Contáctanos | Dubo Estética">
+    <meta property="description" content="Telefono:+56 9 9971 1819. Email: info@duboestetica.cl . Direccion: Av. Presidente Kennedy 5488 oficina 1106 torre norte">
 	<link href="{{ asset("assets/css/style.css") }}" rel="stylesheet" type="text/css">
     <link href="{{ asset("assets/css/settings.css") }}" rel="stylesheet" type="text/css">
     <link href="{{ asset("assets/css/extralayers.css") }}" rel="stylesheet" type="text/css">

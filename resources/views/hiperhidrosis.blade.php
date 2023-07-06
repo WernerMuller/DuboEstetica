@@ -3,6 +3,8 @@
 
 @section('content-csr')
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta property="title" content="Hiperhidrosis | Dubo Estética">
+    <meta property="description" content="Hiperhidrosis facial y axilar. Dubo Estética, centro de estética en Santiago enfocado en satisfacer tus expectativas y necesidades ">
     <link href="{{ asset("assets/css/style.css") }}" rel="stylesheet" type="text/css">
     <link href="{{ asset("assets/css/settings.css") }}" rel="stylesheet" type="text/css">
     <link href="{{ asset("assets/css/extralayers.css") }}" rel="stylesheet" type="text/css">
@@ -24,7 +26,7 @@
                 <div class="col-md-12">
 
                     <div class="paging">
-                        <h2>Hiperhidrosis</h2>
+                        <h1>Hiperhidrosis</h1>
                         <ul>
                             <li><a href="{{ url("/") }}">inicio</a></li>
                             <li><a>Hiperhidrosis</a></li>

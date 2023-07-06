@@ -3,6 +3,8 @@
 
 @section('content-csr')
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta property="title" content="Plasma Rico en Facetas | Dubo Estética">
+    <meta property="description" content="Plasma Rico en Facetas: tratamiento facial - rostro y cuello - rejuvenecimiento de manos. Dubo Estética, centro de estética en Santiago">
     <link href="{{ asset("assets/css/style.css") }}" rel="stylesheet" type="text/css">
     <link href="{{ asset("assets/css/settings.css") }}" rel="stylesheet" type="text/css">
     <link href="{{ asset("assets/css/extralayers.css") }}" rel="stylesheet" type="text/css">
@@ -24,7 +26,7 @@
                 <div class="col-md-12">
 
                     <div class="paging">
-                        <h2>PLASMA RICO EN PLAQUETAS</h2>
+                        <h1>PLASMA RICO EN PLAQUETAS</h1>
                         <ul>
                             <li><a href="{{ url("/") }}">inicio</a></li>
                             <li><a>PLASMA RICO EN PLAQUETAS</a></li>

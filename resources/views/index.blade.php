@@ -3,6 +3,8 @@
 
 @section('content-csr')
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta property="title" content="Dubo Estética: Centro de Estética en Santiago">
+    <meta property="description" content="Somos un centro de estética en Santiago enfocado en satisfacer tus expectativas y necesidades en el ambito de la belleza">
 @endsection
 
 @section('title','Inicio')
@@ -265,13 +267,20 @@
     <div class="services-one">
         <div class="container">
             <div class="row">
+                <div class="col-md-6 col-md-offset-4"> 
+                    <div class="service-sec">
+                        <h1>Centro de Estética</h1>
+                    </div>
+            </div>
+            </div>
+            <div class="row">
 
                 {{-- * BOTOX --}}
                 <div class="col-md-6">
                     <div class="service-sec">
                         <img style="width: 97px" src="{{ asset('assets/images/icon/plasma.png') }}" alt="">
                         <div class="detail">
-                            <h5>Toxina Botulínica</h5>
+                            <h3>Toxina Botulínica</h3>
                             <p>Neurotoxina que paraliza parcialmente algunos músculos previniendo las líneas de expresión.</p>
                         </div>
                     </div>
@@ -285,7 +294,7 @@
                         </div> --}}
                         <img style="width: 97px" src="{{ asset('assets/images/icon/plasma.png') }}" alt="">
                         <div class="detail">
-                            <h5>Plasma rico en plaquetas</h5>
+                            <h3>Plasma rico en plaquetas</h3>
                             <p>Estima el colágeno y elastina de tu piel, con el plasma rico en plaquetas, mejorando visiblemente la calidad de esta.</p>
                         </div>
                     </div>
@@ -299,7 +308,7 @@
                         </div> --}}
                         <img style="width: 97px" src="{{ asset('assets/images/icon/rejuvenecimiento.png') }}" alt="">
                         <div class="detail mod-new">
-                            <h5>Rejuvenecimiento Facial</h5>
+                            <h3>Rejuvenecimiento Facial</h3>
                             <p>Administraremos principios activos que revitalizan tu rostro con resultados naturales.</p>
                         </div>
                     </div>
@@ -314,8 +323,8 @@
                         </div> --}}
                         <img style="width: 97px" src="{{ asset('assets/images/icon/acido.png') }}" alt="">
                         <div class="detail">
-                            <h5>Ácido hialuronico</h5>
-                            <p>Usando este elemento podemos dar volumen y/o hidratación en la zona que se decida tratar.</p>
+                            <h3>Ácido hialuronico</h3>
+                            <p>Usando este elemento del centro de estética podemos dar volumen y/o hidratación en la zona que se decida tratar.</p>
                         </div>
                     </div>
                 </div>
@@ -329,8 +338,8 @@
                         </div> --}}
                         <img style="width: 97px" src="{{ asset('assets/images/icon/bioestimulacion.png') }}" alt="">
                         <div class="detail">
-                            <h5>Bioestimulacion</h5>
-                            <p>La técnica consiste en combatir la flacidez del rostro con la administración de hilos PDO.</p>
+                            <h3>Bioestimulacion</h3>
+                            <p>La técnica en estética consiste en combatir la flacidez del rostro con la administración de hilos PDO.</p>
                         </div>
                     </div>
                 </div>
@@ -344,7 +353,7 @@
                         </div> --}}
                         <img style="width: 97px" src="{{ asset('assets/images/icon/adomen.png') }}" alt="">
                         <div class="detail">
-                            <h5>Abdomen perfecto</h5>
+                            <h3>Abdomen perfecto</h3>
                             <p>Usando la técnica de mesoterapia se administran principios activos que favorecen la reducción de grasa localizada en el abdomen.</p>
                                 {{-- mediante la focalización selectiva de energía
                                 ultrasónica. --}}
@@ -366,8 +375,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="main-title">
-                                <h2><span>Encuentra nuestros</span> Pack de promo</h2>
-                                <p>Solo en Dubó estética encontrarás las mejores promociones, en manos de expertos. Se parte de esta experiencia en Dubó estética.</p>
+                                <h2><span>Encuentra nuestros</span> Pack de promo en estética</h2>
+                                <p>Solo en el centro de Dubó estética encontrarás las mejores promociones, en manos de expertos. Se parte de esta experiencia en Dubó estética.</p>
                             </div>
                         </div>
                     </div>

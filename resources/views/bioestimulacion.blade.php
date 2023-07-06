@@ -3,6 +3,8 @@
 
 @section('content-csr')
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta property="title" content="Bioestimulación | Dubo Estética">
+    <meta property="description" content="Bioestimulación: lifting facial - full cuelo - patas de gallo - entrecejo. Dubo Estética, centro de estética en Santiago enfocado en satisfacer tus necesidades ">
     <link href="{{ asset("assets/css/style.css") }}" rel="stylesheet" type="text/css">
     <link href="{{ asset("assets/css/settings.css") }}" rel="stylesheet" type="text/css">
     <link href="{{ asset("assets/css/extralayers.css") }}" rel="stylesheet" type="text/css">
@@ -24,7 +26,7 @@
                 <div class="col-md-12">
 
                     <div class="paging">
-                        <h2>Bioestimulación</h2>
+                        <h1>Bioestimulación</h1>
                         <ul>
                             <li><a href="{{ url("/") }}">inicio</a></li>
                             <li><a>Bioestimulación</a></li>

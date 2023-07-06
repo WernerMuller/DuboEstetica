@@ -3,6 +3,8 @@
 
 @section('content-csr')
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta property="title" content="Toxina Botulínica | Dubo Estética">
+    <meta property="description" content="Tratamiento con toxina botulínica - tercio superior - sonrisa gingival - bruxismo - lifting de cuello. Dubo Estética, centro de estética en Santiago">
     <link href="{{ asset("assets/css/style.css") }}" rel="stylesheet" type="text/css">
     <link href="{{ asset("assets/css/settings.css") }}" rel="stylesheet" type="text/css">
     <link href="{{ asset("assets/css/extralayers.css") }}" rel="stylesheet" type="text/css">
@@ -24,7 +26,7 @@
                 <div class="col-md-12">
 
                     <div class="paging">
-                        <h2>Toxina botulínica</h2>
+                        <h1>Toxina botulínica</h1>
                         <ul>
                             <li><a href="{{ url("/") }}">inicio</a></li>
                             <li><a>Toxina botulínica</a></li>

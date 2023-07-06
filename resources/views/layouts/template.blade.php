@@ -7,7 +7,9 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
+    
+        <link rel="canonical" href="{{ url()->current() }}" />
+        <link rel="alternate" href="{{ url()->current() }}" hreflang="es-cl" />
         <link rel="icon" type="image/png" href="{{ asset("assets/images/favicon-medical.png") }}">
 
         <!--main file-->
@@ -55,6 +57,62 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.6.0/main.css">
         <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.6.0/main.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.6.0/locales-all.js"></script>
+
+        <!--SEO-->
+        <script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "WebSite",
+  "name": "Dubo Estética",
+  "url": "https://duboestetica.cl/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://duboestetica.cl/search?q=){search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<!--SEO-->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CommunityHealth",
+  "name": "Dubo Estética",
+  "image": "https://duboestetica.cl/assets/images/logo_.png",
+  "@id": "",
+  "url": "https://duboestetica.cl",
+  "telephone": "+56 9 9971 1819",
+  "priceRange": "$$$$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Av. Presidente Kennedy 5488 oficina 1106 torre norte",
+    "addressLocality": "Santiago",
+    "postalCode": "7630716",
+    "addressCountry": "CL"
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "opens": "08:00",
+    "closes": "18:00"
+  },{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Saturday",
+    "opens": "09:00",
+    "closes": "12:00"
+  }],
+  "sameAs": [
+    "https://www.facebook.com/EterniteCentroEstetico/?ti=as",
+    "https://www.instagram.com/duboestetica/"
+  ] 
+}
+</script>
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css" integrity="sha512-cHxvm20nkjOUySu7jdwiUxgGy11vuVPE9YeK89geLMLMMEOcKFyS2i+8wo0FOwyQO/bL8Bvq1KMsqK4bbOsPnA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -194,7 +252,7 @@
 
 
     <footer class="footer" id="footer">
-        <div class="container">
+        <div class="container-fluid">
             <!-- <div class="row">
                 <div class="col-md-12">
                     <div class="emergency">
@@ -274,7 +332,7 @@
 
                         <div class="get-touch">
                             <div class="title">
-                                <h5>CONTACTO</h5>
+                                <h5>Contacto Centro Estética</h5>
                             </div>
 
                             <div class="detail">

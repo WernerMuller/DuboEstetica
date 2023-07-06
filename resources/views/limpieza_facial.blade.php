@@ -3,6 +3,8 @@
 
 @section('content-csr')
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta property="title" content="Limpieza Facial | Dubo Estética">
+    <meta property="description" content="La base de todo tratamiento estético facial es tener la piel limpia de impurezas. El servicio de limpieza facial profunda cuenta con varios pasos">
     <link href="{{ asset("assets/css/style.css") }}" rel="stylesheet" type="text/css">
     <link href="{{ asset("assets/css/settings.css") }}" rel="stylesheet" type="text/css">
     <link href="{{ asset("assets/css/extralayers.css") }}" rel="stylesheet" type="text/css">
@@ -24,7 +26,7 @@
                 <div class="col-md-12">
 
                     <div class="paging">
-                        <h2>Limpieza facial</h2>
+                        <h1>Limpieza facial</h1>
                         <ul>
                             <li><a href="{{ url('/') }}">inicio</a></li>
                             <li><a>Limpieza facial</a></li>

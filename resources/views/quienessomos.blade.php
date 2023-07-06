@@ -3,6 +3,8 @@
 
 @section('content-csr')
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta property="title" content="Quiénes Somos | Dubo Estética">
+    <meta property="description" content="Entregamos una amplia diversidad de servicios en el area estetica, facial y corporal, para alcanzar los mejores resultados, al mejor precio.">
 @endsection
 
 @section('title','Quienes Somos')
